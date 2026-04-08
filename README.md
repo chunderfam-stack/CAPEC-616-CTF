@@ -51,7 +51,7 @@ Where is the malicious file?
 
 <details>
 <summary>Hint 5</summary>
-The walkthrough has several possible locations for a rogue script to be located.
+The [walkthrough](https://github.com/BYU-ECE-Software/Cyber-266-Vulnerability-Walkthroughs/blob/main/Establish-Rogue-Location/Walkthrough.md) has several possible locations for a rogue script to be located.
 </details>
 
 ## Submission
