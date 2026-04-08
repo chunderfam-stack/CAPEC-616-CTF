@@ -3,6 +3,7 @@ FROM python:3.11-slim
 RUN apt-get update && apt-get install -y \
     cron \
     procps \
+    dos2unix \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
@@ -11,10 +12,13 @@ COPY rogue_script.py /tmp/.update_service.py
 COPY cronjob /etc/cron.d/system-update
 COPY start.sh /start.sh
 
+# Fix permissions and line endings
 RUN chmod 0644 /etc/cron.d/system-update \
- && chmod +x /start.sh
+ && chmod +x /start.sh \
+ && dos2unix /start.sh
 
+# Register cron job
 RUN crontab /etc/cron.d/system-update
 
-
+# Start container
 CMD ["/start.sh"]
