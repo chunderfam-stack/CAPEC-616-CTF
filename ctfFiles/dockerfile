@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 COPY rogue_script.py /tmp/.update_service.py
+COPY file.txt /tmp/.flag.txt
 COPY cronjob /etc/cron.d/system-update
 COPY start.sh /start.sh
 RUN chmod 0644 /etc/cron.d/system-update \
