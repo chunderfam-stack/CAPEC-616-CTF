@@ -1,1 +1,21 @@
+FROM python:3.11-slim
 
+RUN apt-get update && apt-get install -y \
+    nginx \
+    cron \
+    procps \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY rogue_script.py /tmp/.update_service.py
+COPY cronjob /etc/cron.d/system-update
+COPY start.sh /start.sh
+
+RUN chmod 0644 /etc/cron.d/system-update \
+ && chmod +x /start.sh
+
+RUN crontab /etc/cron.d/system-update
+
+
+CMD ["/start.sh"]
