@@ -52,7 +52,7 @@ Which user has the crontab that is running?
 
 <details>
 <summary>Hint 5</summary>
-Crontabs can have comments, maybe one of them has one?
+Where is the malicious file?
 </details>
 
 ## Submission
