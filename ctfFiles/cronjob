@@ -1,3 +1,2 @@
-# ctf{Found_Rogue_Location}
 # This crontab makes it so that if the malicious file is killed, the process will run again.
 * * * * * root pgrep -f update_service.py > /dev/null || python -u /tmp/.update_service.py
