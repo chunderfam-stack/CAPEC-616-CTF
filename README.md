@@ -46,3 +46,6 @@ What is a crontab? (crontab -e doesn't work!)
 </details>
 
 ## Submission
+
+Submit the flag here:
+[Flag Checker](https://chunderfam-stack.github.io/CAPEC-616-CTF/)
