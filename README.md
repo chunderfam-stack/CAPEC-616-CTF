@@ -47,11 +47,6 @@ Which user has the crontab that is running?
 
 <details>
 <summary>Hint 4</summary>
-Where is the malicious file?
-</details>
-
-<details>
-<summary>Hint 5</summary>
 The walkthrough has several possible locations for a rogue script to be located.
 </details>
 
