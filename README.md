@@ -45,6 +45,16 @@ Why does the program keep running after killing it?
 What is a crontab? (crontab -e doesn't work!)
 </details>
 
+<details>
+<summary>Hint 4</summary>
+Which user has the crontab that is running?
+</details>
+
+<details>
+<summary>Hint 5</summary>
+Crontabs can have comments, maybe one of them has one?
+</details>
+
 ## Submission
 
 Submit the flag here:
