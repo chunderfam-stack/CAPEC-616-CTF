@@ -37,7 +37,12 @@ The walkthrough has several possible locations for a rogue script to be located.
 
 <details>
 <summary>Hint 2</summary>
-What is a crontab?
+Why does the program keep running after killing it?
+</details>
+
+<details>
+<summary>Hint 3</summary>
+What is a crontab? (crontab -e doesn't work!)
 </details>
 
 ## Submission
