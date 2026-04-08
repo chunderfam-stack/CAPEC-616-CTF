@@ -29,4 +29,15 @@ docker exec -it ctf_container bash
 
 Your goal in this ctf is to find and stop the rogue software running on the linux distro you are given.
 
+### Hints
+<details>
+<summary>Hint 1</summary>
+The walkthrough has several possible locations for a rogue script to be located.
+</details>
+
+<details>
+<summary>Hint 2</summary>
+What is a crontab?
+</details>
+
 ## Submission
