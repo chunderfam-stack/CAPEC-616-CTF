@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Flag Submission</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; }
+        input, button { padding: 10px; font-size: 16px; }
+        #result { margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>CTF: Rogue Location Challenge</h1>
+    <p>Enter the flag you found:</p>
+    <input type="text" id="flagInput" placeholder="Enter flag here">
+    <button onclick="checkFlag()">Submit</button>
+    
+    <div id="result"></div>
 
+    <script>
+        function checkFlag() {
+            const input = document.getElementById('flagInput').value.trim();
+            const correctFlag = 'ctf{Found_Rogue_Location}';
+            const resultDiv = document.getElementById('result');
+
+            if (input === correctFlag) {
+                resultDiv.style.color = 'green';
+                resultDiv.textContent = 'Correct!';
+            } else {
+                resultDiv.style.color = 'red';
+                resultDiv.textContent = 'Incorrect, try again.';
+            }
+        }
+    </script>
+</body>
+</html>
