@@ -27,7 +27,7 @@ docker exec -it ctf_container bash
 
 ## Instructions
 
-Your goal in this ctf is to find and stop the rogue software running on the linux distro you are given.
+Your goal in this ctf is to find and stop the rogue software running on the linux distro you are given. There is a flag that is in the same directory as the malicious file, meaning that you must find it!
 
 ### Hints
 <details>
