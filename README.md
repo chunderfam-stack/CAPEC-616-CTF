@@ -30,6 +30,7 @@ docker exec -it ctf_container bash
 Your goal in this ctf is to find and stop the rogue software running on the linux distro you are given.
 
 ### Hints
+<details>
 <summary>Hint 1</summary>
 Why does the program keep running after killing it?
 </details>
@@ -51,7 +52,7 @@ Where is the malicious file?
 
 <details>
 <summary>Hint 5</summary>
-The [walkthrough](https://github.com/BYU-ECE-Software/Cyber-266-Vulnerability-Walkthroughs/blob/main/Establish-Rogue-Location/Walkthrough.md) has several possible locations for a rogue script to be located.
+The walkthrough has several possible locations for a rogue script to be located.
 </details>
 
 ## Submission
